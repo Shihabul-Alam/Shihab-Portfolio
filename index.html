@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Shihabul Alam | ETE Portfolio</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-slate-950 text-white font-sans">
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
+        <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="#home" class="text-2xl font-extrabold">
+                Shihabul<span class="text-cyan-400">.</span>
+            </a>
+
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#home" class="hover:text-cyan-400 transition">Home</a>
+                <a href="#about" class="hover:text-cyan-400 transition">About</a>
+                <a href="#leadership" class="hover:text-cyan-400 transition">Leadership</a>
+                <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+                <a href="#achievements" class="hover:text-cyan-400 transition">Certifications</a>
+                <a href="#education" class="hover:text-cyan-400 transition">Education</a>
+                <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+            </div>
+
+            <a href="#contact" class="hidden sm:inline-block bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-5 py-2.5 rounded-full font-semibold transition">
+                Get in Touch
+            </a>
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <main id="home">
+        <section class="min-h-screen flex items-center pt-24">
+            <div class="max-w-6xl mx-auto px-6 w-full">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+
+                    <!-- Hero Text -->
+                    <div>
+                        <p class="text-cyan-400 font-semibold mb-4 tracking-wide">
+                            HELLO, I'M
+                        </p>
+
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
+                            Md. Shihabul
+                            <span class="text-cyan-400">Alam</span>
+                        </h1>
+
+                        <h2 class="text-xl sm:text-2xl font-semibold text-slate-300 mt-5">
+                            Electronics & Telecommunication Engineering Student
+                        </h2>
+
+                        <p class="text-slate-400 text-base sm:text-lg leading-8 mt-6 max-w-xl">
+                            Passionate about Robotics, IoT, Embedded Systems, and Telecommunication technologies. Proven track record in hardware design competitions and leadership roles.
+                        </p>
+
+                        <div class="flex flex-wrap gap-3 mt-8">
+
+                            <a href="#projects" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-5 py-2.5 rounded-full font-bold transition hover:-translate-y-1">
+                                View Projects
+                            </a>
+
+                            <a href="https://github.com/Shihabul-Alam" target="_blank" rel="noopener noreferrer" class="border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-950 px-5 py-2.5 rounded-full font-bold transition hover:-translate-y-1">
+                                GitHub Profile
+                            </a>
+
+                            <a href="#contact" class="border border-slate-700 hover:border-cyan-400 px-5 py-2.5 rounded-full font-bold transition hover:-translate-y-1">
+                                Contact Me
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Hero Card/Avatar -->
+                    <div class="flex justify-center">
+                        <div class="relative">
+                            <div class="absolute -inset-4 bg-cyan-500/20 rounded-3xl blur-2xl"></div>
+
+                            <div class="relative w-72 h-80 sm:w-80 sm:h-96 rounded-3xl border-2 border-cyan-400/30 bg-slate-900 flex flex-col items-center justify-center p-6 shadow-2xl text-center">
+                                <div class="w-28 h-28 rounded-full bg-cyan-500/10 border border-cyan-400/40 flex items-center justify-center text-4xl font-extrabold text-cyan-400 mb-4">
+                                    SA
+                                </div>
+                                <h3 class="text-2xl font-bold text-white">Md. Shihabul Alam</h3>
+                                <p class="text-cyan-400 text-sm font-medium mt-1">ETE Undergraduate</p>
+                                <p class="text-slate-400 text-xs mt-3">International Islamic University Chittagong</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about" class="py-20 bg-slate-900/60">
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-14">
+                    <p class="text-cyan-400 font-semibold">ABOUT ME</p>
+                    <h2 class="text-4xl font-extrabold mt-2">Engineering & Innovation</h2>
+                </div>
+
+                <div class="grid gap-12 items-center">
+
+                    <div>
+                        <p class="text-slate-400 leading-8 text-lg">
+                            I am an undergraduate student in the Department of Electronic and Telecommunication Engineering (ETE) at International Islamic University Chittagong (IIUC). My core interests lie in robotics, sensor networks, Internet of Things (IoT), and embedded hardware
+                            systems design[cite: 3, 5, 7].
+                        </p>
+
+                        <p class="text-slate-400 leading-8 text-lg mt-5">
+                            Through hands-on engineering competitions, academic research conferences, and active student club management, I continually refine my skills in practical problem solving and technical project management[cite: 2, 4, 5, 6].
+                        </p>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
+                            <div class="border border-slate-800 bg-slate-950 rounded-xl p-5">
+                                <p class="text-2xl font-bold text-cyan-400">ETE</p>
+                                <p class="text-slate-400 text-sm mt-1">Engineering Discipline</p>
+                            </div>
+
+                            <div class="border border-slate-800 bg-slate-950 rounded-xl p-5">
+                                <p class="text-2xl font-bold text-cyan-400">Robotics & IoT</p>
+                                <p class="text-slate-400 text-sm mt-1">Specialized Interest[cite: 3]</p>
+                            </div>
+
+                            <div class="border border-slate-800 bg-slate-950 rounded-xl p-5">
+                                <p class="text-2xl font-bold text-cyan-400">Leadership</p>
+                                <p class="text-slate-400 text-sm mt-1">IIUC ETE Club[cite: 2, 6]</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= LEADERSHIP ================= -->
+        <section id="leadership" class="py-20">
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-14">
+                    <p class="text-cyan-400 font-semibold">LEADERSHIP & RESPONSIBILITY</p>
+                    <h2 class="text-4xl font-extrabold mt-2">IIUC ETE Club Roles</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-7">
+
+                    <!-- Role 1 -->
+                    <article class="bg-slate-900 border border-slate-800 rounded-2xl p-7 hover:border-cyan-400 transition">
+                        <span class="text-cyan-400 text-xs font-semibold tracking-wider uppercase">SPRING 2026</span>
+                        <h3 class="text-2xl font-bold mt-2">Seminar & Workshop Secretary</h3>
+                        <p class="text-slate-300 font-medium text-sm mt-1">IIUC ETE Club</p>
+                        <p class="text-slate-400 leading-7 mt-4">
+                            Organized and coordinated academic workshops, technical seminars, and skill-building sessions for undergraduate engineering students[cite: 6].
+                        </p>
+                    </article>
+
+                    <!-- Role 2 -->
+                    <article class="bg-slate-900 border border-slate-800 rounded-2xl p-7 hover:border-cyan-400 transition">
+                        <span class="text-cyan-400 text-xs font-semibold tracking-wider uppercase">SPRING 2025</span>
+                        <h3 class="text-2xl font-bold mt-2">Assistant Finance Secretary</h3>
+                        <p class="text-slate-300 font-medium text-sm mt-1">IIUC ETE Club</p>
+                        <p class="text-slate-400 leading-7 mt-4">
+                            Managed financial allocation, event budgeting, and administrative record-keeping to ensure successful departmental initiatives[cite: 2].
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="py-20 bg-slate-900/60">
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-14">
+                    <p class="text-cyan-400 font-semibold">ENGINEERING PROJECTS</p>
+                    <h2 class="text-4xl font-extrabold mt-2">Technical Accomplishments</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+                    <!-- Project 1 -->
+                    <article class="bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden hover:border-cyan-400 transition hover:-translate-y-2">
+                        <div class="p-7">
+                            <span class="text-cyan-400 text-xs font-bold uppercase tracking-wider">
+                                Robotics • Hardware Design
+                            </span>
+
+                            <h3 class="text-2xl font-bold mt-3">
+                                Precision Line Following Robot
+                            </h3>
+
+                            <p class="text-slate-400 leading-7 mt-3">
+                                Designed a precise, stable, and efficient line-following robot using optimized control algorithms and sensor feedback loops. Awarded Champion at IIUC Tech Fest 2025[cite: 5].
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden hover:border-cyan-400 transition hover:-translate-y-2">
+                        <div class="p-7">
+                            <span class="text-cyan-400 text-xs font-bold uppercase tracking-wider">
+                                Sensors • Solar Energy • Automation
+                            </span>
+
+                            <h3 class="text-2xl font-bold mt-3">
+                                Automated Greenhouse Monitoring
+                            </h3>
+
+                            <p class="text-slate-400 leading-7 mt-3">
+                                Developed an automated greenhouse monitoring and control system utilizing sensor arrays and solar power integration. Featured at CUET Research Fair 2023[cite: 7].
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden hover:border-cyan-400 transition hover:-translate-y-2">
+                        <div class="p-7">
+                            <span class="text-cyan-400 text-xs font-bold uppercase tracking-wider">
+                                Robotics • Drone Technology
+                            </span>
+
+                            <h3 class="text-2xl font-bold mt-3">
+                                Drone Building & IoT System
+                            </h3>
+
+                            <p class="text-slate-400 leading-7 mt-3">
+                                Hands-on prototyping and building of multirotor drone systems combined with IoT sensor telemetry during specialized technical training at CUET[cite: 3].
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= ACHIEVEMENTS & CERTIFICATIONS ================= -->
+        <section id="achievements" class="py-20">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-14">
+                    <p class="text-cyan-400 font-semibold">HONORS & TRAINING</p>
+                    <h2 class="text-4xl font-extrabold mt-2">Certifications & Awards</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+                    <!-- Cert 1 -->
+                    <article class="bg-slate-950 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition hover:-translate-y-2">
+                        <span class="text-cyan-400 text-xs font-semibold uppercase tracking-wider">COMPETITION AWARD</span>
+                        <h3 class="text-xl font-bold mt-2">Champion – Line Following Robot</h3>
+                        <p class="text-slate-400 text-sm mt-2 leading-6">
+                            Inter University Line Following Robot Competition at IIUC Tech Fest 2025[cite: 5].
+                        </p>
+                        <p class="text-slate-500 text-xs mt-4">IIUC • 2025</p>
+                    </article>
+
+                    <!-- Cert 2 -->
+                    <article class="bg-slate-950 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition hover:-translate-y-2">
+                        <span class="text-cyan-400 text-xs font-semibold uppercase tracking-wider">WORKSHOP TRAINING</span>
+                        <h3 class="text-xl font-bold mt-2">Robotics, IoT & Drone Building</h3>
+                        <p class="text-slate-400 text-sm mt-2 leading-6">
+                            Drone Workshop conducted by IT Business Incubator, CUET & Diligite Ltd[cite: 3].
+                        </p>
+                        <p class="text-slate-500 text-xs mt-4">CUET • Nov 8, 2025</p>
+                    </article>
+
+                    <!-- Cert 3 -->
+                    <article class="bg-slate-950 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition hover:-translate-y-2">
+                        <span class="text-cyan-400 text-xs font-semibold uppercase tracking-wider">CONFERENCE DELEGATE</span>
+                        <h3 class="text-xl font-bold mt-2">Student Delegate at ICLSET 2024</h3>
+                        <p class="text-slate-400 text-sm mt-2 leading-6">
+                            International Conference on Innovations in Science, Engineering and Technology (Technical Co-Sponsor: IEEE)[cite: 4].
+                        </p>
+                        <p class="text-slate-500 text-xs mt-4">IIUC • Oct 26-27, 2024</p>
+                    </article>
+
+                    <!-- Cert 4 -->
+                    <article class="bg-slate-950 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition hover:-translate-y-2">
+                        <span class="text-cyan-400 text-xs font-semibold uppercase tracking-wider">RESEARCH PARTICIPATION</span>
+                        <h3 class="text-xl font-bold mt-2">Research Fair 2023</h3>
+                        <p class="text-slate-400 text-sm mt-2 leading-6">
+                            Presented project: "Using Sensors and Solar Power, an Automated Greenhouse Monitoring and Control System"[cite: 7].
+                        </p>
+                        <p class="text-slate-500 text-xs mt-4">CUET • Aug 28, 2023</p>
+                    </article>
+
+                    <!-- Cert 5 -->
+                    <article class="bg-slate-950 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition hover:-translate-y-2">
+                        <span class="text-cyan-400 text-xs font-semibold uppercase tracking-wider">CLUB LEADERSHIP</span>
+                        <h3 class="text-xl font-bold mt-2">Seminar & Workshop Secretary</h3>
+                        <p class="text-slate-400 text-sm mt-2 leading-6">
+                            Recognized for leadership and organizing sessions for IIUC ETE Club during Spring-26 session[cite: 6].
+                        </p>
+                        <p class="text-slate-500 text-xs mt-4">IIUC ETE Club • 2026</p>
+                    </article>
+
+                    <!-- Cert 6 -->
+                    <article class="bg-slate-950 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition hover:-translate-y-2">
+                        <span class="text-cyan-400 text-xs font-semibold uppercase tracking-wider">CLUB LEADERSHIP</span>
+                        <h3 class="text-xl font-bold mt-2">Assistant Finance Secretary</h3>
+                        <p class="text-slate-400 text-sm mt-2 leading-6">
+                            Awarded certificate of appreciation for financial planning and management during Spring-25 session[cite: 2].
+                        </p>
+                        <p class="text-slate-500 text-xs mt-4">IIUC ETE Club • 2025</p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+        <section id="education" class="py-20 bg-slate-900/60">
+            <div class="max-w-4xl mx-auto px-6">
+
+                <div class="text-center mb-14">
+                    <p class="text-cyan-400 font-semibold">EDUCATION</p>
+                    <h2 class="text-4xl font-extrabold mt-2">Academic Journey</h2>
+                </div>
+
+                <div class="relative border-l-2 border-slate-700 ml-4">
+
+                    <div class="relative pl-10 pb-6 group">
+                        <div class="absolute -left-[11px] top-1 w-5 h-5 bg-slate-700 rounded-full border-4 border-slate-950 transition-all duration-300 group-hover:bg-cyan-400 group-hover:scale-125"></div>
+
+                        <div>
+                            <p class="text-cyan-400 font-semibold">Bachelor of Science (B.Sc.)</p>
+                            <h3 class="text-2xl font-bold mt-1">Electronic and Telecommunication Engineering</h3>
+                            <p class="text-slate-300 mt-1">International Islamic University Chittagong (IIUC)</p>
+                            <p class="text-slate-400 mt-3 leading-7">
+                                Focus areas include signal processing, telecommunication networks, robotics, embedded systems, and IoT control systems[cite: 3, 5, 7].
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="py-20">
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-12">
+                    <p class="text-cyan-400 font-semibold">CONTACT</p>
+                    <h2 class="text-4xl font-extrabold mt-2">Get In Touch</h2>
+                    <p class="text-slate-400 mt-4">
+                        Feel free to reach out for collaborations, engineering projects, or technical discussions.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+
+                    <!-- Contact Details -->
+                    <div class="w-full space-y-5">
+
+                        <div class="w-full bg-slate-900 border border-slate-800 rounded-xl p-6">
+                            <p class="text-cyan-400 font-semibold">Email</p>
+                            <a href="mailto:mdshihabulalam09@gmail.com" class="text-slate-300 mt-2 inline-block hover:text-cyan-400 transition">
+                                mdshihabulalam09@gmail.com
+                            </a>
+                        </div>
+
+                        <div class="w-full bg-slate-900 border border-slate-800 rounded-xl p-6">
+                            <p class="text-cyan-400 font-semibold">Phone</p>
+                            <a href="tel:01864134571" class="text-slate-300 mt-2 inline-block hover:text-cyan-400 transition">
+                                +880 1864-134571
+                            </a>
+                        </div>
+
+                        <div class="w-full bg-slate-900 border border-slate-800 rounded-xl p-6">
+                            <p class="text-cyan-400 font-semibold">Social & Professional Links</p>
+                            <p class="text-slate-300 mt-2 flex gap-4">
+                                <a href="https://github.com/Shihabul-Alam" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition">GitHub</a> •
+                                <a href="https://www.linkedin.com/in/md-shihabul-alam" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition">LinkedIn</a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- Direct Message Form -->
+                    <form id="contactForm" class="w-full bg-slate-900 border border-slate-800 rounded-2xl p-7">
+
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Name</label>
+                        <input id="name" type="text" placeholder="Your Name" required class="w-full bg-slate-950 border border-slate-700 rounded-lg px-4 py-3 outline-none focus:border-cyan-400 transition text-white">
+
+                        <label class="block text-sm font-medium text-slate-300 mt-5 mb-2">Email</label>
+                        <input id="email" type="email" placeholder="Your Email" required class="w-full bg-slate-950 border border-slate-700 rounded-lg px-4 py-3 outline-none focus:border-cyan-400 transition text-white">
+
+                        <label class="block text-sm font-medium text-slate-300 mt-5 mb-2">Message</label>
+                        <textarea id="message" rows="4" placeholder="Your message..." required class="w-full bg-slate-950 border border-slate-700 rounded-lg px-4 py-3 outline-none focus:border-cyan-400 transition resize-none text-white"></textarea>
+
+                        <button type="submit" class="w-full mt-5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold py-3 rounded-lg transition">
+                            Send Message
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="border-t border-slate-800 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+
+            <p class="text-slate-500 text-sm">
+                © 2026 Md. Shihabul Alam. All rights reserved.
+            </p>
+
+            <p class="text-slate-500 text-sm">
+                Electronic & Telecommunication Engineering
+            </p>
+
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+
+            const subject = "Portfolio Inquiry from " + name;
+            const body = "Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message;
+
+            window.location.href = "mailto:mdshihabulalam09@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+        });
+    </script>
+
+</body>
+
+</html>
